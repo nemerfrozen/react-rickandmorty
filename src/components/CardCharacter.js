@@ -30,7 +30,11 @@ function CardCharacter({ id ,name, image, status }) {
       <Card.Body>
         <Card.Title className={style.cardTitle}>{name}</Card.Title>
         <Card.Text>
-            {status}    
+            {
+                status === 'Alive' ? <span className="btn btn-success">Vivo</span> :
+                status === 'Dead' ? <span className="btn btn-danger">Muerto</span> :
+                <span className="btn btn-warning">?</span>
+            }   
         </Card.Text>
         
       </Card.Body>

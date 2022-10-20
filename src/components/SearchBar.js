@@ -12,10 +12,7 @@ function SearchBar(props) {
 
 
   return (
- 
-     
-
-      <div className="d-flex mt-2">
+      <div className="d-flex">
         <label for="search" className="form-label text-light m-2">Nombre:</label>
         <input className="form-control" id="search" type="text" placeholder="Buscar..."  onChange={handleInputChange}/>
         <label for="status" className="form-label text-light m-2">Estatus:</label>
