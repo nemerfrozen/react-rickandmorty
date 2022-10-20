@@ -1,0 +1,12 @@
+
+.cardTitle {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 0.75rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card:hover {
+    /*cursor: pointer;*/
+    transform: scale(1.1);  
+}
