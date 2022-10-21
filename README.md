@@ -7,6 +7,8 @@ Correr Aplicacion
   Deploy aws
 
 ### `Usuario de Prueba`
+
+url: http://rickandmortynemer.s3-website.eu-central-1.amazonaws.com/
  Usuario: admin
  clave: admin
 
